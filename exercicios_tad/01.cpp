@@ -44,6 +44,7 @@ int main() {
     struct Cliente c[50];
 
     int i;
+    int ultimoCliente;
     char n[50];
     char s[1];
     int opcao;
@@ -68,6 +69,7 @@ int main() {
                 scanf("%d %d %d", &c[i].data.dia, &c[i].data.mes, &c[i].data.ano);
 
                 c[i].calcularIdade();
+                ultimoCliente = i;
 
                 printf("DIGITE 1 PARA CONTINUAR\n");
                 printf("DIGITE 0 PARA VOLTAR\n");
@@ -78,7 +80,7 @@ int main() {
             }
         }
         else if (opcao == 2){
-            for (i = 0; i < sizeof(c) / sizeof(c[0]); i++){
+            for (i = 0; i <= ultimoCliente; i++){
                 printf("NOME: %s\n", c[i].nome);
 
                 printf("SEXO: %s\n", c[i].sexo);
