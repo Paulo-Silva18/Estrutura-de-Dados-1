@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1747163106 source:g:\meu drive\disciplinas\estrutura de dados i - ads\teste\pilhasequencial.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1747162981 g:\meu drive\disciplinas\estrutura de dados i - ads\teste\pilhasequencial.h
+
+1747163154 source:g:\meu drive\disciplinas\estrutura de dados i - ads\teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1747163106 source:g:\meu drive\disciplinas\estrutura de dados i - ads\semana 11\pilhasequencialstructalunoimpl\pilhasequencial.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1747162981 g:\meu drive\disciplinas\estrutura de dados i - ads\semana 11\pilhasequencialstructalunoimpl\pilhasequencial.h
+
+1747163246 source:g:\meu drive\disciplinas\estrutura de dados i - ads\semana 11\pilhasequencialstructalunoexe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1747163751 g:\meu drive\disciplinas\estrutura de dados i - ads\semana 11\pilhasequencialstructalunoexe\pilhasequencial.h
+
+1747163246 source:c:\users\iftm\downloads\pilhasequencialstructalunoexe\pilhasequencialstructalunoexe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
+1747163751 c:\users\iftm\downloads\pilhasequencialstructalunoexe\pilhasequencialstructalunoexe\pilhasequencial.h
+
+1747270917 source:c:\users\iftm\downloads\pilhasequencialstructalunoexe\pilhasequencialstructalunoexe\pilhasequencial.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaSequencial.h"
+
