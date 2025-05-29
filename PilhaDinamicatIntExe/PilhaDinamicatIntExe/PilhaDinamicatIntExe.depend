@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1748307529 source:g:\meu drive\disciplinas\estrutura de dados i - ads\pilha\pilhadinamicastructintimp\pilhadinamicatintexe\main.c
+	<stdio.h>
+	"PilhaDinamicaInt.h"
+
+1748307421 g:\meu drive\disciplinas\estrutura de dados i - ads\pilha\pilhadinamicastructintimp\pilhadinamicatintexe\pilhadinamicaint.h
+	<stdio.h>
+	<stdlib.h>
+
+1748307520 source:g:\meu drive\disciplinas\estrutura de dados i - ads\pilha\pilhadinamicastructintimp\pilhadinamicatintexe\pilhadinamicaint.c
+	"PilhaDinamicaInt.h"
+
+1748480172 source:c:\users\iftm\downloads\pilhadinamicatintexe\pilhadinamicatintexe\main.c
+	<stdio.h>
+	"PilhaDinamicaInt.h"
+
+1748307421 c:\users\iftm\downloads\pilhadinamicatintexe\pilhadinamicatintexe\pilhadinamicaint.h
+	<stdio.h>
+	<stdlib.h>
+
+1748480544 source:c:\users\iftm\downloads\pilhadinamicatintexe\pilhadinamicatintexe\pilhadinamicaint.c
+	"PilhaDinamicaInt.h"
+
