@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1355504602 source:d:\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1355502341 d:\projfiladin\filadin.h
+
+1355504571 source:d:\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1361102111 source:d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1355498742 d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.h
+
+1361104909 source:d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1361102112 source:d:\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1374587812 d:\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.h
+
+1374588089 source:d:\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1570576222 source:g:\meu drive\disciplinas\pc2 - ads\2019-02\semana 12\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1570574411 g:\meu drive\disciplinas\pc2 - ads\2019-02\semana 12\projfiladin\filadin.h
+
+1570576183 source:g:\meu drive\disciplinas\pc2 - ads\2019-02\semana 12\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1570576194 source:g:\meu drive\disciplinas\estrutura de dados i - ads\fila\projfiladinexe\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1750791601 g:\meu drive\disciplinas\estrutura de dados i - ads\fila\projfiladinexe\filadin.h
+
+1750792007 source:g:\meu drive\disciplinas\estrutura de dados i - ads\fila\projfiladinexe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1750792007 source:c:\users\iftm\downloads\projfiladinexe\projfiladinexe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1750791601 c:\users\iftm\downloads\projfiladinexe\projfiladinexe\filadin.h
+
