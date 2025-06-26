@@ -25,6 +25,16 @@ Fila* cria_Fila(){
 }
 
 void libera_Fila(Fila* fi){
+    if(fi == NULL) {
+        return;
+    }
+    Elem *aux = fi->inicio;
+    while(fi->inicio != NULL) {
+        aux = fi->inicio;
+        fi->inicio = fi->inicio->prox;
+        free(aux);
+    }
+    free(fi);
 
 }
 
@@ -54,6 +64,20 @@ int insere_Fila(Fila* fi, struct aluno al){
 }
 
 int remove_Fila(Fila* fi){
+    if(fi == NULL) {
+        return 0;
+    }
+    if(fi->inicio == NULL){
+        return 0;
+    }
+    Elem *aux = fi->inicio;
+    fi->inicio = aux->prox;
+    if(fi->inicio == NULL) {
+        fi->final == NULL;
+    }
+    fi->qtd--;
+    free(aux);
+    return 1;
 
 }
 
@@ -70,6 +94,18 @@ int Fila_cheia(Fila* fi){
 }
 
 void imprime_Fila(Fila* fi){
+    if(fi == NULL) {
+        return;
+    }
+    Elem *aux = fi->inicio;
+    while(aux != NULL) {
+        printf("Nome: %s\nMat: %d\nNotas: %f %f %f\n",
+           aux->dados.nome,aux->dados.matricula, aux->dados.n1,
+           aux->dados.n2,aux->dados.n3);
+        printf("************************************\n\n");
+        aux = aux->prox;
+
+    }
 
 }
 
