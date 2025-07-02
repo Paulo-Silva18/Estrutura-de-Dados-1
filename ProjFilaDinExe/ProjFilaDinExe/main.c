@@ -15,16 +15,16 @@ int main(){
 
 
     remove_Fila(fi);
-    remove_Fila(fi);
-    printf("Depois da remocao:\n");
-    imprime_Fila(fi);
-    printf("Tamanho: %d\n\n\n\n",tamanho_Fila(fi));
-
     consulta_Fila(fi, &al);
     printf("Nome: %s\nMat: %d\nNotas: %f %f %f\n",
            al.nome,al.matricula, al.n1,
            al.n2,al.n3);
     printf("************************************\n\n");
+
+    remove_Fila(fi);
+    printf("Depois da remocao:\n");
+    imprime_Fila(fi);
+    printf("Tamanho: %d\n\n\n\n",tamanho_Fila(fi));
 
     libera_Fila(fi);
 

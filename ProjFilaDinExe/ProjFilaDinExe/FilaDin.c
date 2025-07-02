@@ -39,7 +39,14 @@ void libera_Fila(Fila* fi){
 }
 
 int consulta_Fila(Fila* fi, struct aluno *al){
-
+    if(fi == NULL) {
+        return 0;
+    }
+    if(fi->inicio == NULL) {
+        return 0;
+    }
+    *al = fi->inicio->dados;
+    return 1;
 }
 
 int insere_Fila(Fila* fi, struct aluno al){
@@ -82,15 +89,24 @@ int remove_Fila(Fila* fi){
 }
 
 int tamanho_Fila(Fila* fi){
-
+    if(fi == NULL) {
+        return -1;
+    }
+    return fi->qtd;
 }
 
 int Fila_vazia(Fila* fi){
-
+    if(fi == NULL) {
+        return -1;
+    }
+    if(fi->inicio == NULL) { // fi->qtd == 0
+        return 1;
+    }
+    return 0;
 }
 
 int Fila_cheia(Fila* fi){
-
+    return 0;
 }
 
 void imprime_Fila(Fila* fi){
@@ -106,6 +122,22 @@ void imprime_Fila(Fila* fi){
         aux = aux->prox;
 
     }
+
+}
+
+int busca_Fila(Fila*fi, int matricula, struct aluno* al) {
+    if(fi == NULL) {
+        return -1;
+    }
+    Elem *aux = fi->inicio;
+    while(aux != NULL) {
+        if (aux->dados.matricula == matricula) {
+            *al = aux->dados;
+            return 1;
+        }
+        aux = aux->prox;
+    }
+    return 0;
 
 }
 
