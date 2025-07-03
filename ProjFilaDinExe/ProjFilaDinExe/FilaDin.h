@@ -17,4 +17,5 @@ int Fila_vazia(Fila* fi);
 int Fila_cheia(Fila* fi);
 void imprime_Fila(Fila* fi);
 int busca_Fila(Fila*fi, int matricula, struct aluno* al);
+int conta_aprovada(Fila*fi);
 

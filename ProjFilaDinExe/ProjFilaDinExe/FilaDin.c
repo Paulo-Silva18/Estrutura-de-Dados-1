@@ -126,7 +126,7 @@ void imprime_Fila(Fila* fi){
 }
 
 int busca_Fila(Fila*fi, int matricula, struct aluno* al) {
-    if(fi == NULL) {
+    if(fi == NULL || fi->inicio == NULL) {
         return -1;
     }
     Elem *aux = fi->inicio;
@@ -138,6 +138,23 @@ int busca_Fila(Fila*fi, int matricula, struct aluno* al) {
         aux = aux->prox;
     }
     return 0;
+
+}
+
+int conta_aprovada(Fila*fi) {
+    if(fi == NULL || fi->inicio == NULL) {
+        return -1;
+    }
+    Elem *aux = fi->inicio;
+    int contador = 0;
+    while(aux != NULL) {
+        float media = (aux->dados.n1 + aux->dados.n2 + aux->dados.n3) / 3;
+        if (media >= 7) {
+            contador++;
+        }
+        aux = aux->prox;
+    }
+    return contador;
 
 }
 

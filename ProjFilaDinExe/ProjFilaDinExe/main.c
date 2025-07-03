@@ -13,13 +13,20 @@ int main(){
     printf("Tamanho: %d\n\n\n\n",tamanho_Fila(fi));
     imprime_Fila(fi);
 
-
-    remove_Fila(fi);
-    consulta_Fila(fi, &al);
-    printf("Nome: %s\nMat: %d\nNotas: %f %f %f\n",
+    if(busca_Fila(fi, 9, &al)) {
+        printf("Matricula de aluno encontrado\n");
+        printf("Nome: %s\nMat: %d\nNotas: %f %f %f\n",
            al.nome,al.matricula, al.n1,
            al.n2,al.n3);
-    printf("************************************\n\n");
+        printf("************************************\n\n");
+    }
+    else {
+        printf("Matricula de aluno nao encontrado\n");
+    }
+    printf("A quantidade de alunos aprovados foram: %d\n", conta_aprovada(fi));
+    remove_Fila(fi);
+    consulta_Fila(fi, &al);
+
 
     remove_Fila(fi);
     printf("Depois da remocao:\n");
